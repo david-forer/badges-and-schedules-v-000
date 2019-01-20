@@ -1,8 +1,8 @@
-# Write your code here.
 def badge_maker(name)
-  "Hello, my name is #{name}"
+  "Hello, my name is #{name}."
 end
-def batch_badge_creator(array)
+
+ def batch_badge_creator(array)
   new_badges = []
   array.each do |name|
     new_badges << "Hello, my name is #{name}."
@@ -26,5 +26,4 @@ end
    assign_rooms(speakers).each do |num|
     puts num
   end
-  
 end
